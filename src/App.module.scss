@@ -5,9 +5,13 @@
   margin: -100px 0 0 -150px;
 }
 .github {
+  width: 257px;
+  margin: -150px;
+  margin-left: -150px;
+  margin-top: 40px;
   position: absolute;
-  left: 36%;
-  bottom: 40%;
+  left: 50%;
+  top: 50%;
   color: white;
   transition: all 1s;
   img {
