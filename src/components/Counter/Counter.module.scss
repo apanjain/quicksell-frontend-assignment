@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap");
+.parentDiv {
+  height: 130px;
+  width: 257px;
+}
+.loadParent {
+  vertical-align: middle;
+  display: table;
+  div {
+    display: table-cell;
+  }
+  margin-bottom: 11px;
+}
+.loadingText {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.controlDiv {
+  font-size: 21px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  display: table;
+  width: 180px;
+  height: 56px;
+  text-align: center;
+
+  table-layout: fixed;
+  :nth-child(1) {
+    display: table-cell;
+    vertical-align: middle;
+    color: #b24242;
+    width: 33%;
+    border: 1px solid #b24242;
+    border-right: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  :nth-child(2) {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #fbe8e8;
+    width: 34%;
+    border: 1px solid #b24242;
+    color: #b24242;
+  }
+  :nth-child(3) {
+    display: table-cell;
+    vertical-align: middle;
+    width: 33%;
+    background-color: #b24242;
+    border: 1px solid #b24242;
+    color: #ffffff;
+    border-radius: 0 5px 5px 0;
+  }
+}
+.plus,
+.minus {
+  cursor: pointer;
+}
+.minusDisabled,
+.plusDisabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.singleLine {
+  white-space: nowrap;
+  overflow: hidden;
+  br {
+    display: none;
+  }
+  * {
+    display: inline;
+    white-space: nowrap;
+  }
+}
