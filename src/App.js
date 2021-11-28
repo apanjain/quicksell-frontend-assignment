@@ -10,12 +10,12 @@ function App() {
       </div>
       <span className={styles.github}>
         <a
-          href="https://github.com/apan_jain/quicksell-frontend-assignment"
+          href="https://github.com/apanjain/quicksell-frontend-assignment"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img alt="github" src={githubIcon} height="20px" width="20px" />
-          apan_jain
+          apanjain
         </a>
       </span>
     </div>
