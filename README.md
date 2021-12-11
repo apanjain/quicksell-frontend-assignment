@@ -1,4 +1,4 @@
-# QuickSell Frontend Assignment
+# React Counter
 
 ## Usage
 
